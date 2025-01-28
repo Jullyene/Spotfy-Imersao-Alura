@@ -1,2 +1,2 @@
-# Spotfy-Imersao-Alura
+# Spotify-Imersao-Alura
  
