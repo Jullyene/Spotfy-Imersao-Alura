@@ -4,15 +4,15 @@
     margin: 0;
     text-decoration: none;
     list-style-type: none;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--font-dm-sans);
 }
 
 body {
-    background-color: #000;
+    background-color: var(--pure-black);
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: var(--color-gray);
     border-radius: .5rem;
     padding: 1rem 0 0 1rem;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .sidebar__navigation .logo {
-    background: #121212;
+    background: var(--color-gray);
     display: flex;
     border-radius: .5rem;
     padding: 1rem 0 0 1rem;
@@ -46,10 +46,9 @@ body {
 }
 
 .sidebar nav ul li a  {
-    color: #b3b3b3;
+    color: var(--color-gray2);
     text-decoration: none;
     font-weight: 600;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar ul li {
@@ -57,13 +56,13 @@ body {
 }
 
 .library {
-    background-color: #121212;
+    background-color: var(--color-gray);
     border-radius: .5rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: .25rem .5rem;
-    color: #b3b3b3;
+    color: var(--color-gray2);
     font-weight: 600;
     font-style: .875rem;
     margin-top: .625rem;
@@ -81,12 +80,11 @@ body {
     text-transform: none;
     text-decoration: none;
     text-align: center;
-    font-family: "DM Sans", sans-serif;
     font-weight: 700;
     font-size: .875rem;
     border: none;
     background-color: transparent;
-    color: #b3b3b3;
+    color: var(--color-gray2);
     margin-right: 10px;
     align-items: center;
 }
@@ -94,7 +92,7 @@ body {
 .library .library__button .fa {
     font-size: 1.25rem;
     font-weight: 300;
-    color: #b3b3b3;
+    color: var(--color-gray2);
     margin-right: .625rem;
     padding-right: .5rem;
 }
@@ -109,12 +107,12 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 1.25rem;
-    color: #b3b3b3;
+    color: var(--color-gray2);
     font-weight: 600;
     font-size: .875rem;
     margin: .5rem 0;
     padding: 1rem 1.25rem;
-    background-color: #71A69E;
+    background-color: var(--color-green);
     border-radius: .5rem;
 }
 
@@ -125,7 +123,7 @@ body {
 
 .section-playlist__content .text {
     padding-bottom: .875rem;
-    color: #fff;
+    color: var(--pure-white);
 }
 .section-playlist__content .title {
     font-weight: 700;
@@ -138,24 +136,23 @@ body {
 .section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
-    color: #000;
+    color: var(--pure-black);
     border-radius: 1.25rem;
     font-size: .75rem;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: .625rem;
     width: 100%;
     margin-top: .75rem;
-    border: 2px solid #fff;
+    border: 2px solid var(--pure-white);
     background-color: transparent;
 }
 
 .section-playlist__content .section-playlist__button span {
     text-transform: uppercase;
     font-weight: 700;
-    color: #fff;
+    color: var(--pure-white);
 }
 
 
@@ -164,7 +161,7 @@ body {
 }
 
 .sidebar .cookies a{
-    color: #b3b3b3;
+    color: var(--color-gray2);
     font-weight: 500;
     font-size: .625rem;
     text-decoration: none;
@@ -176,8 +173,8 @@ body {
 
 .languages .languages__button {
     background-color: transparent;
-    border: 1px solid #878787;
-    color: #fff;
+    border: 1px solid var(--color-gray3);
+    color: var(--pure-white);
     cursor: pointer;
     align-items: center;
     display: flex;
@@ -194,7 +191,7 @@ body {
     justify-content: space-between;
     position: fixed;
     bottom: 0;
-    background-image: linear-gradient(100deg,#71A69E,#509bf5);
+    background-image: linear-gradient(100deg,var(--color-green),var(--color-blue));
     width: 100%;
     padding: 1rem;
 }
@@ -203,7 +200,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    color: #fff;
+    color: var(--pure-white);
 }
 
 .footer .texts .test-premium{
@@ -229,8 +226,9 @@ body {
     background-color: transparent;
     border-radius: 2rem;
     padding: 1rem;
-    border: 2px solid #fff;
+    border: 2px solid  var(--pure-white);
     font-size: 1rem;
     font-weight: 600;
-    color: #fff;
+    color: var(--pure-white);
 }
+
