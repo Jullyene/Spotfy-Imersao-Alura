@@ -8,9 +8,31 @@
     --color-gray3: #878787;
     --color-gray4: #242424;
     --color-gray5: #a7a7a7;
+    --color-gray6: #181818;
+    --color-gray7: #6a6a6a;
+    --color-gray8: #252525;
     --color-green: #71A69E;
+    --color-green-dark:#1db954;
     --color-blue: #509bf5;
 
     --bg-icon: #131313;
     --bg-arrow-color: rgba(0,0,07);
+
+
+
+    --color-card1: rgb(0, 100, 80);
+    --color-card2: rgb(132, 0, 231);
+    --color-card3: rgb(30, 50, 100);
+    --color-card4: rgb(140, 25, 50);
+    --color-card5: rgb(232, 17, 91);
+    --color-card6: rgb(83, 122, 161);
+    --color-card7: rgb(142, 102, 172);
+    --color-card8: rgb(20, 138, 8);
+    --color-card9: rgb(30, 50, 100);
+    --color-card10: rgb(233, 20, 41);
+    --color-card11: rgb(80, 55, 80);
+    --color-card12: rgb(216, 64, 0);
+    --color-card13: rgb(186, 93, 7);
+    --color-card14: rgb(0, 30, 80);
+    --color-card15: rgb(60, 30, 80);
 }
